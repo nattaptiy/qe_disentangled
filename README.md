@@ -13,12 +13,16 @@ Our meaning embedding allows for efficient cross-lingual sentence similarity est
 
 1. Install requirements
 
-    <code> $ pip install -r requirements.txt </code>
+   ```
+   $ pip install -r requirements.txt 
+   ```
    
 2. Prepare the training data and its embedding from the model of your choice.
 
 3. Edit the model in <code> train_model.py </code> and run:
 
-    <code> $ python train_model.py </code>
+    ```
+   $ python train_model.py 
+   ```
 
 4. The result will be written in <code> result.csv </code>
